@@ -14,7 +14,6 @@ xhr.onreadystatechange = function() {
 		      votes = resp.imdbVotes,
 		         id = resp.imdbID;
 
-		         console.log(resp);
 		var div = document.createElement("div");
 		div.className = "row";
 

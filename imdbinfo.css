@@ -1,3 +1,15 @@
+.ratings {
+  display: inline-block;
+  padding: 10px;
+  background: rgba(0,0,0,0.1);
+  color: goldenrod;
+  border-radius: 5px;
+}
+
+.ratings.show-label {
+  color: goldenrod;
+}
+
 .ratings-text {
 	display: inline-block;
 	font-weight: 400;
